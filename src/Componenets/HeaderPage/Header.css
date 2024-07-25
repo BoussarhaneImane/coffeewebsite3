@@ -1,0 +1,201 @@
+
+.box-logo{
+  display: flex;
+  margin-left: 50px;
+  margin-top: 20Px;
+  
+}
+.box-logo .Logo{
+width: 15%;
+}
+.box-logo h6{
+ margin-top: 10Px;
+ color: rgb(105, 58, 11);
+ position: relative;
+ right: 10px;
+}
+.box-logo span p{
+  font-size: 14px;
+}
+#header{
+ display: flex;
+
+ align-items: center;
+
+ background-color: transparent;
+ position: sticky;
+ top: 0;
+ left: 0;
+ z-index: 10;
+ position: relative;
+padding:0 0 20px;
+ 
+
+
+}
+#header #logoCoffe{
+
+ width: 12%;
+ height: 12%;
+ border-radius: 50%;
+margin-left: 80px;
+
+}
+#navbar{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: white;
+  width: 500px;
+  border-radius: 30px 30px  30px 30px;
+  padding-right: 30PX;
+  padding-left: 35px;
+  box-shadow: 0 2px 5px rgb(165, 145, 112);
+ margin-top: 10px;position: relative;
+ right: 140px;
+}
+#navbar li{
+  list-style: none;
+padding: 17px;
+
+  
+ 
+   
+}
+#navbar li .Links{
+ text-decoration: none;
+
+color: rgb(98, 59, 21);
+font-size: 14px;
+transition: border-bottom 0.1s ease;
+
+}
+#navbar li #hover:hover {
+  border-bottom: 2px solid rgb(167, 95, 23) ; /* Ligne visible sur hover */
+}
+#navbar span{
+  color: rgb(185, 100, 15);
+  font-size: 17px;
+  font-weight:  bold;
+}
+.contact {
+  color: white;
+  background-color: rgb(111, 67, 23);
+  padding: 14px;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 80px;
+  margin-top: 10px;
+  width: 150px;
+  transition:  background-color 0.2s;
+}
+.contact:hover{
+  background-color: rgb(135, 82, 28);
+}
+.raiting-left{
+  display: flex;
+  padding: 5px;
+}
+.raiting-left .rating{
+  margin-left: 15px;
+  color: rgb(58, 32, 6);
+  cursor: pointer;
+}
+#version-mobile{
+ display: none;
+}
+.close-icon{
+  color: rgb(98, 59, 21);
+}
+@media (max-width: 1000px) {
+ #version-mobile{
+    display: block;
+    /* Autres styles pour le menu mobile sur les appareils mobiles */
+  }
+  .box-logo .Logo{
+    width: 30%;
+  
+    position: relative;
+    right: 10px;
+    }
+    .box-logo h6{
+      position: relative;
+      right: 26px;
+      bottom: 10px;
+    }
+  .menu-mobile {
+    padding-top: 50px;
+   
+    margin-left: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%; 
+    height: 100%;
+    background-color: #f9f9f9f9; /* Couleur de fond du menu */
+    z-index: 1; /* Assure que le menu s'affiche au-dessus de tout le contenu */
+    padding: 30px; /* Espacement interne du menu */
+  
+    /* Ajoute un défilement si le contenu est plus grand que la fenêtre */
+    overflow-y: auto;
+  }
+  
+  .menu-mobile ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-mobile li {
+    margin-bottom: 15px; /* Espacement entre les éléments de la liste */
+  }
+  
+  .menu-mobile a {
+    text-decoration: none;
+
+    color: rgb(137, 69, 1);
+    font-size: 14px;
+    transition: border-bottom 0.1s ease;
+  }
+  
+  .menu-mobile a:hover {
+    border-bottom: 2px solid rgb(137, 69, 1); 
+  }
+  
+  .menu-mobile .close-icon {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    
+  }
+  .box-logo img{
+    width: 300px;
+   
+  }
+  .box-logo h6{
+    margin-left: 10px;
+  }
+  .contact{
+    font-size: 9px;
+    padding: 10px;
+    width: 350px;
+    position: relative;
+     top:4px;
+  }
+  .raiting-left{
+    margin-top: 10px;
+    margin-right: 30px;
+  }
+  #menu-icon{
+    font-size: 23px;
+    margin-top: 10px;
+    position:relative;
+    
+    right: 20px;
+  }
+  nav{
+    display: none;
+  }
+}
