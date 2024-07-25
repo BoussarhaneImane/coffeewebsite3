@@ -92,6 +92,7 @@
   margin: 0 auto 40px;
   padding: 5px;
   border-radius: 50px;
+  width: 20rem;
   box-shadow: 0px 6px 15px rgba(109, 107, 107, 0.1);
 }
 
@@ -103,15 +104,22 @@
   margin-top: 100px;
   padding: 20px;
   text-align: center;
+
+  margin-left: 15rem;
+  margin: 0;
+ 
 }
 .section-3 img {
   width: 100%;
   max-width: 250px;
+  margin: 0 auto;
+ 
 }
 .section-3 p {
   font-size: 37px;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 5px;
+  margin-left: 2rem;
 }
 .section-3 button {
   background-color: #fff;
@@ -120,6 +128,7 @@
   width: 200px;
   margin-top: 20px;
   transition: width 0.5s;
+  margin-left: 2rem;
 }
 .section-3 button:hover {
   width: 230px;
@@ -133,6 +142,7 @@
   padding: 5px;
   border-radius: 50px;
   box-shadow: 0px 6px 15px rgba(109, 107, 107, 0.1);
+  width: 20rem;
 }
 
 .products {
@@ -212,6 +222,7 @@
   display: flex;
   position: relative;
   bottom: 60px;
+  left: 8rem;
   font-size: 20px;
   color: rgb(255, 183, 14);
   text-align: center;
@@ -249,6 +260,7 @@
   padding: 10px;
   border-radius: 50px;
   box-shadow: 0px 6px 15px rgba(109, 107, 107, 0.1);
+  width: 20rem;
 }
 
 .container-pub {
@@ -350,12 +362,14 @@
     justify-content: space-around;
     margin: 0;
   }
+
   .categories div {
     margin: 0;
   }
   .section-3 {
     flex-direction: row;
     text-align: left;
+
   }
   .products {
     flex-direction: row;
